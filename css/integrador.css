@@ -1,0 +1,192 @@
+body{
+    margin: 0mp;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+header{
+    background-color: #353a3f;
+    margin: 0;
+}
+
+.menu{
+    background-color: #353a3f;
+    margin: 0;
+}
+
+.tick-btn{
+    color: rgb(51, 153, 51);
+}
+
+nav{
+    display: block;
+}
+
+.conf{
+    color: white;
+    font-size: 20px;
+    padding: 27px 0px 27px 100px ;
+    background-image: url(../images/codoacodo.png);
+    background-size: 100px;
+    background-position: 0px;
+    background-repeat: no-repeat;
+}
+
+a{
+    text-decoration: none;
+}
+
+.textoFoto{
+    flex: content;
+    text-align: right;
+    
+}
+
+.orador-btn{
+    padding: 0.5rem 1 rem;
+    border-radius: 6px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgba(0, 0, 0, 0.0);
+    font-size: 20px;
+    color: white;
+}
+
+.tickets-btn{
+    padding: 0.5rem 1 rem;
+    border-radius: 6px;
+    border-color: #393;
+    border-style: solid;
+    border-width: 1px;
+    background-color: #393;
+    font-size: 20px;
+    color: white;
+    margin-left: 10px;
+}
+
+.fotoBA{
+    position: relative
+    margin-top: 0px;
+    padding-top: 0px;
+    background-color: #353a3f;
+}
+
+.contenidoFoto{
+    position: absolute;
+    text-align: right;
+    padding: 10rem 9rem 0rem 40rem;
+     
+}
+
+.titulo{
+    font-weight: bold;
+}
+
+.tituloOradores{
+    padding: 15px;
+    text-align: center;
+}
+
+.row{
+text-align: center;
+}
+
+.textBold{
+    font-weight: bold;
+    font-size: 0.7rem;
+}
+
+.nombre{
+    padding: 0.3rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.verde{
+    color: rgb(21, 197, 47);
+}
+
+.oradores{
+    padding: 0rem 8rem 2rem 10rem;
+}
+
+h4{
+    font-weight: bold;
+}
+
+.parr{
+    font-size: 0.95rem;
+}
+
+.playa-btn{
+    padding: 0.5rem 1 rem;
+    border-radius: 6px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    background-color: rgba(0, 0, 0, 0.0);
+    font-size: 1rem;
+    color: white;
+}
+
+.tarjetaPlaya{
+    background-color: #42494f;
+}
+
+.formulario{
+    text-align: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.btn-verd{
+    background-color: #9c3;
+    color: white;
+    
+}
+
+.bcg-azul{
+    color:white;
+  
+    background-color: rgb(65, 104, 156);
+}
+
+.footer{
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+}
+
+.footer > a{
+    font-size: 0.9rem;
+    padding: 2rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.tarjetas{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.tarjeta{
+    margin: 0,5rem;
+    border-style: solid;
+    border-color: blue;
+    border-radius: 0rem;
+    text-align: center;
+}
+
+.formulario > cate{
+text-align: left;
+   
+}
+
+.bcg-celeste{
+    background-color: lightblue;
+}
+
