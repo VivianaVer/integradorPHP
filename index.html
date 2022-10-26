@@ -18,22 +18,29 @@
 <body>
 <header>
 <!--menú-->
- <nav class="navbar bg-light">
+ <nav class="navbar navbar-expand-lg bg-light">
   <div class="container-fluid menu">  
     <a href="#" class="align-content-md-start text-white conf">Conf Bs As</a> 
-    <div class="nav justify-content-end navbar-md-collapse">
-      <a class="nav-link active text-white" aria-current="page" href="#">La Conferencia</a>
-      <a class="nav-link text-white-50" href="#">Los oradores</a>
-      <a class="nav-link text-white-50" href="#">El lugar y la fecha</a>
-      <a class="nav-link text-white-50" href="#">Conviértete en orador</a>
-      <a class="nav-link tick-btn active" href="tickets.html">Comprar tickets</a>
+    <div class="nav justify-content-end navbar-md-collapse" id="menu">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav">
+          <a class="nav-link active text-white" aria-current="page" href="#">La Conferencia</a>
+          <a class="nav-link text-white-50" href="#">Los oradores</a>
+          <a class="nav-link text-white-50" href="#">El lugar y la fecha</a>
+          <a class="nav-link text-white-50" href="#">Conviértete en orador</a>
+          <a class="nav-link tick-btn active" href="tickets.html">Comprar tickets</a>
+        </div>
+      </div>
     </div>
   </div>
 </nav>
 
 <!--foto Bs As-->
 <div class="card bg-dark text-white">
-  <img src="images/ba1.jpg" class="card-img fotoBA" alt="foto Buenos Aires">
+  <img src="Images/ba1.jpg" class="card-img fotoBA" alt="foto Buenos Aires">
   <div class="card-img-overlay">
     <div class="contenidoFoto">
     <div class="fotoPlaya">
@@ -55,8 +62,11 @@
 </div>
 
 <!--oradores-->
+<div class="card-group">
+  
+
  <div class="row oradores">
-    <div class="col-lg-4">
+    <div class="col-md-4">
       <!--Steve Jobs -->
       <div class="card" >
         <img src="Images/steve.jpg" class="card-img-top" alt="Steve Jobs">
@@ -72,7 +82,7 @@
         </div>
       </div> 
     </div>
-    <div class="col-lg-4">
+    <div class="col-md-4">
       <!--Bill Gates-->
       <div class="card" >
         <img src="Images/bill.jpg" class="card-img-top" alt="Bill Gates">
@@ -88,7 +98,7 @@
          </div>
       </div>
     </div>
-    <div class="col-lg-4">  
+    <div class="col-md-4">  
       <!--Ada Lovelace-->
       <div class="card" >
         <img src="Images/ada.jpeg" class="card-img-top" alt="Ada Lovelace">
@@ -105,6 +115,7 @@
       </div>
     </div>
   </div>
+</div>
 
 <!--foto playa-->
 <div class="fotoPlaya"> 

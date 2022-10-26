@@ -19,22 +19,30 @@
 <body>
 <header>
   <!--menú-->
- <nav class="navbar bg-light">
-    <div class="container-fluid menu">  
-      <a href="#" class="align-content-md-start text-white conf">Conf Bs As</a> 
-      <div class="nav justify-content-end navbar-md-collapse">
-        <a class="nav-link active text-white" aria-current="page" href="#">La Conferencia</a>
-        <a class="nav-link text-white-50" href="#">Los oradores</a>
-        <a class="nav-link text-white-50" href="#">El lugar y la fecha</a>
-        <a class="nav-link text-white-50" href="#">Conviértete en orador</a>
-        <a class="nav-link tick-btn" href="#">Comprar tickets</a>
+ <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid menu">  
+    <a href="#" class="align-content-md-start text-white conf">Conf Bs As</a> 
+    <div class="nav justify-content-end navbar-md-collapse" id="menu">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav">
+          <a class="nav-link active text-white" aria-current="page" href="#">La Conferencia</a>
+          <a class="nav-link text-white-50" href="#">Los oradores</a>
+          <a class="nav-link text-white-50" href="#">El lugar y la fecha</a>
+          <a class="nav-link text-white-50" href="#">Conviértete en orador</a>
+          <a class="nav-link tick-btn active" href="tickets.html">Comprar tickets</a>
+        </div>
       </div>
     </div>
-  </nav>  
+  </div>
+</nav>
+
 </header>
 
 <main>
-    <div class="container-fluid tarjetas">
+    <div class="container-fluid collapse-md tarjetas">
       <div class="tarjetas">
         <div class="card border-primary tarjeta" style="width: 20rem;">
           <div class="card-body">

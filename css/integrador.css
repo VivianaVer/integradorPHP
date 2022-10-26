@@ -26,7 +26,7 @@ nav{
     color: white;
     font-size: 20px;
     padding: 27px 0px 27px 100px ;
-    background-image: url(../images/codoacodo.png);
+    background-image: url(../Images/codoacodo.png);
     background-size: 100px;
     background-position: 0px;
     background-repeat: no-repeat;
@@ -66,7 +66,7 @@ a{
 }
 
 .fotoBA{
-    position: relative
+    position: relative;
     margin-top: 0px;
     padding-top: 0px;
     background-color: #353a3f;
@@ -163,6 +163,7 @@ h4{
     padding: 2rem;
     line-height: 1.5;
     text-align: center;
+    
 }
 
 .tarjetas{
