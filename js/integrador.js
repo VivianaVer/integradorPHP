@@ -24,3 +24,7 @@ function calcTotal(){
     console.log(tot)
     document.getElementById("total").innerHTML=("Total a pagar: $" + tot)
 }
+
+function borrar() {
+    document.getElementById("total").innerHTML=("Total a pagar: $")
+}

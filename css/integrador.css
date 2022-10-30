@@ -11,7 +11,12 @@ header{
 
 .menu{
     background-color: #353a3f;
-    margin: 0;
+    margin: 0rem;
+}
+
+.menub{
+   padding-left: 5rem;
+ 
 }
 
 .tick-btn{
@@ -148,7 +153,6 @@ h4{
 
 .bcg-azul{
     color:white;
-  
     background-color: rgb(65, 104, 156);
 }
 
@@ -166,7 +170,44 @@ h4{
     
 }
 
-.tarjetas{
+
+.tarjeta{
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-top: 2rem;
+        
+}
+
+.foot{
+    flex: content;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+/*
+@media only screen and (max-width: 1500px) {
+    .tarjeta{
+        padding-left: 7rem;
+    padding-right: 7rem;
+    padding-top: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .tarjeta{
+        margin-left: 0rem;  
+        margin-right: 0rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .tarjeta{
+        margin-left: 0rem;  
+        margin-right: 0rem;
+    }
+}
+
+/*.tarjetas{
     display: flex;
     text-align: center;
     align-items: center;
@@ -180,10 +221,10 @@ h4{
     border-color: blue;
     border-radius: 0rem;
     text-align: center;
-}
+}*/
 
 .formulario > cate{
-text-align: left;
+    text-align: left;
    
 }
 
@@ -191,3 +232,6 @@ text-align: left;
     background-color: lightblue;
 }
 
+.logo{
+    width: 6rem;
+}

@@ -19,57 +19,75 @@
 <body>
 <header>
   <!--menú-->
- <nav class="navbar navbar-expand-lg bg-light">
-  <div class="container-fluid menu">  
-    <a href="#" class="align-content-md-start text-white conf">Conf Bs As</a> 
-    <div class="nav justify-content-end navbar-md-collapse" id="menu">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="navbar-nav">
-          <a class="nav-link active text-white" aria-current="page" href="#">La Conferencia</a>
-          <a class="nav-link text-white-50" href="#">Los oradores</a>
-          <a class="nav-link text-white-50" href="#">El lugar y la fecha</a>
-          <a class="nav-link text-white-50" href="#">Conviértete en orador</a>
-          <a class="nav-link tick-btn active" href="tickets.html">Comprar tickets</a>
+  <div class="container-fluid">
+    <div class="row collapse-sm menu">
+      <div class="col-md-3">
+        <img src="Images/codoacodo.png" alt="logoCaC" class="logo">
+        <a href="" class="text-white">Conf Bs As</a>
+      </div>
+    <div class="col-md-9 justify-content-end menub">
+    <nav class="navbar navbar-expand-lg menub">
+      <div class="container-fluid menub ">
+        <a class="navbar-brand text-white" href="#">La Conferencia</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active text-white-50" aria-current="page" href="#">Los oradores</a>
+            <a class="nav-link text-white-50" href="#">El lugar y la fecha</a>
+            <a class="nav-link text-white-50" href="#">Conviértete en orador</a>
+            <a class="nav-link text-white-50 disabled">Comprar tickets</a>
+          </div>
         </div>
       </div>
-    </div>
+    </nav>
   </div>
-</nav>
+  
 
 </header>
 
 <main>
-    <div class="container-fluid collapse-md tarjetas">
-      <div class="tarjetas">
-        <div class="card border-primary tarjeta" style="width: 20rem;">
+  <div class="container align-content-center tarjeta ">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          
           <div class="card-body">
-             <h2 class="card-title fw-bold pt-3">Estudiante</h2>
-             <h6 class="card-subtitle fs-4 pb-4 pt-2 ">Tienen un descuento</h6>
-             <p class="card-text fw-bold fs-2 pb-3">80%</p>
-             <p class="card-text fs-5 pb-3">*presentar documentación</p>
+            <h2 class="card-title fw-bold pt-3">Estudiante</h2>
+              <h6 class="card-title fs-4 pb-4 pt-2">Tienen un descuento</h6>
+              <p class="card-text fw-bold fs-2 pb-3">80%</p>
+              <p class="card-text fs-5 pb-3">*presentar documentación</p>
           </div>
+         
         </div>
-        <div class="card border-primary mx-1 tarjeta"style="width: 20rem;" >
-            <div class="card-body">
-                <h2 class="card-title fw-bold pt-3">Trainee</h2>
-                <h6 class="card-subtitle fs-4 pb-4 pt-2">Tienen un descuento</h6>
-                <p class="card-text fw-bold fs-2 pb-3">50%</p>
-                <p class="card-text fs-5 pb-3">*presentar documentación</p>
-            </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          
+          <div class="card-body">
+            <h2 class="card-title fw-bold pt-3">Trainee</h2>
+              <h6 class="card-title fs-4 pb-4 pt-2">Tienen un descuento</h6>
+              <p class="card-text fw-bold fs-2 pb-3">50%</p>
+              <p class="card-text fs-5 pb-3">*presentar documentación</p>
+          </div>
+          
         </div>
-        <div class="card border-warning tarjeta" style="width: 20rem;" >
-            <div class="card-body">
-                <h2 class="card-title fw-bold pt-3">Junior</h2>
-                <h6 class="card-subtitle fs-4 pb-4 pt-2">Tienen un descuento</h6>
-                <p class="card-text fw-bold fs-2 pb-3">15%</p>
-                <p class="card-text fs-5 pb-3">*presentar documentación</p>
-            </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          
+          <div class="card-body">
+            <h2 class="card-title fw-bold pt-3">Junior</h2>
+              <h6 class="card-title fs-4 pb-4 pt-2">Tienen un descuento</h6>
+              <p class="card-text fw-bold fs-2 pb-3">15%</p>
+              <p class="card-text fs-5 pb-3">*presentar documentación</p>
+          </div>
+          
         </div>
       </div>
     </div>
+  </div>
     
     <div class="container-fluid text-center my-4">
         <form action="#" method="post">
@@ -111,10 +129,10 @@
             <div class="row formulario">
               
               <div class="col-md-4 d-grid">
-               <button type="button" class="btn btn-verd py-2 fs-3">Borrar</button>
+               <button type="reset" class="btn btn-verd py-2 fs-3 mt-2" onclick="borrar()">Borrar</button>
               </div>
               <div class="col-md-4 d-grid">
-                <button type="button" class="btn btn-verd py-2 fs-3" onclick="calcTotal()">Resumen</button>
+                <button type="button" class="btn btn-verd py-2 fs-3 mt-2" onclick="calcTotal()">Resumen</button>
                </div>
             </div>
         </form>
@@ -127,13 +145,12 @@
 
 
 <footer>
-  <nav class="navbar bcg-azul mt-2 px-4">
-    <div class="container-fluid">  
-      <div class="nav justify-content-end navbar-md-collapse footer">
+  <nav class="navbar bcg-azul mt-2 px-4 navbar-expand-md">
+    <div class="container-fluid dflex justify-content-center">  
+      <div class="nav justify-content-center navbar-md-collapse footer">
         <a class="nav-link text-white" href="#">Preguntas frecuentes</a>
         <a class="nav-link text-white" href="#">Contáctanos</a>
         <a class="nav-link text-white" href="#">Prensa</a>
-        <a class="nav-link text-white" href="#">Estudiantes</a>
         <a class="nav-link text-white" href="#">Conferencias</a>
         <a class="nav-link text-white" href="#">Terminos y condiciones</a>
         <a class="nav-link text-white" href="#">Privacidad</a>
