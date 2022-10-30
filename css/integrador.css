@@ -5,13 +5,14 @@ body{
 }
 
 header{
-    background-color: #353a3f;
+    background-color: #353a40;
     margin: 0;
 }
 
 .menu{
-    background-color: #353a3f;
+    background-color: #353a40;
     margin: 0rem;
+    
 }
 
 .menub{
@@ -83,11 +84,11 @@ a{
     padding: 10rem 9rem 0rem 40rem;
      
 }
-
+/*
 .titulo{
     font-weight: bold;
 }
-
+*/
 .tituloOradores{
     padding: 15px;
     text-align: center;
@@ -136,7 +137,7 @@ h4{
 }
 
 .tarjetaPlaya{
-    background-color: #42494f;
+    background-color: #353a40;
 }
 
 .formulario{
@@ -146,25 +147,26 @@ h4{
 }
 
 .btn-verd{
-    background-color: #9c3;
+    background-color: #96c93e;
     color: white;
     
 }
 
 .bcg-azul{
     color:white;
-    background-color: rgb(65, 104, 156);
+    background-color: #1e4f6d;
 }
 
 .footer{
     display: inline-flex;
     align-items: center;
     text-align: center;
+    font-size:0.7em
 }
 
 .footer > a{
-    font-size: 0.9rem;
-    padding: 2rem;
+    
+    padding: 1.8rem;
     line-height: 1.5;
     text-align: center;
     
