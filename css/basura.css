@@ -1,0 +1,47 @@
+.conf{
+    color: white;
+    font-size: 20px;
+    padding: 27px 0px 27px 100px ;
+    background-image: url(../Images/codoacodo.png);
+    background-size: 100px;
+    background-position: 0px;
+    background-repeat: no-repeat;
+}
+
+.textoFoto{
+    flex: content;
+    text-align: right;
+    
+}
+
+.fotoBA{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    }
+
+
+    .contenidoFoto{
+        position: absolute;
+        text-align: right;
+        padding: 10rem 9rem 0rem 40rem;
+         
+}
+
+.verde{
+    color: rgb(21, 197, 47);
+}
+
+
+.foot{
+    flex: content;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+.formulario > cate{
+    text-align: left;
+   
+}
+

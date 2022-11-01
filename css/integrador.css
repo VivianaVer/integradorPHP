@@ -4,10 +4,6 @@ body{
     font-size: 20px;
 }
 
-header{
-    background-color: #353a40;
-    margin: 0;
-}
 
 .menu{
     background-color: #353a40;
@@ -28,24 +24,9 @@ nav{
     display: block;
 }
 
-.conf{
-    color: white;
-    font-size: 20px;
-    padding: 27px 0px 27px 100px ;
-    background-image: url(../Images/codoacodo.png);
-    background-size: 100px;
-    background-position: 0px;
-    background-repeat: no-repeat;
-}
 
 a{
     text-decoration: none;
-}
-
-.textoFoto{
-    flex: content;
-    text-align: right;
-    
 }
 
 .orador-btn{
@@ -62,41 +43,20 @@ a{
 .tickets-btn{
     padding: 0.5rem 1 rem;
     border-radius: 6px;
-    background-color: #96c93e;
+    background-color: #29a744;
     border-style: solid;
     border-width: 1px;
-    background-color: #96c93e;
+    background-color: #29a744;
     font-size: 20px;
     color: white;
     margin-left: 10px;
 }
 
-.fotoBA{
-    position: relative;
-    margin-top: 0px;
-    padding-top: 0px;
-    background-color: #353a3f;
-}
-
-.contenidoFoto{
-    position: absolute;
-    text-align: right;
-    padding: 10rem 9rem 0rem 40rem;
-     
-}
-/*
-.titulo{
-    font-weight: bold;
-}
-*/
 .tituloOradores{
     padding: 15px;
     text-align: center;
 }
 
-.row{
-text-align: center;
-}
 
 .textBold{
     font-weight: bold;
@@ -107,14 +67,6 @@ text-align: center;
     padding: 0.3rem;
     font-weight: bold;
     font-size: 1.1rem;
-}
-
-.verde{
-    color: rgb(21, 197, 47);
-}
-
-.oradores{
-    padding: 0rem 8rem 2rem 10rem;
 }
 
 h4{
@@ -157,22 +109,6 @@ h4{
     background-color: #1e4f6d;
 }
 
-.footer{
-    display: inline-flex;
-    align-items: center;
-    text-align: center;
-    font-size:0.7em
-}
-
-.footer > a{
-    
-    padding: 1.8rem;
-    line-height: 1.5;
-    text-align: center;
-    
-}
-
-
 .tarjeta{
     padding-left: 7rem;
     padding-right: 7rem;
@@ -180,55 +116,6 @@ h4{
         
 }
 
-.foot{
-    flex: content;
-    text-align: center;
-    align-items: center;
-    align-content: center;
-}
-/*
-@media only screen and (max-width: 1500px) {
-    .tarjeta{
-        padding-left: 7rem;
-    padding-right: 7rem;
-    padding-top: 2rem;
-    }
-}
-
-@media only screen and (max-width: 1000px) {
-    .tarjeta{
-        margin-left: 0rem;  
-        margin-right: 0rem;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .tarjeta{
-        margin-left: 0rem;  
-        margin-right: 0rem;
-    }
-}
-
-/*.tarjetas{
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin-top: 1rem;
-}
-
-.tarjeta{
-    margin: 0,5rem;
-    border-style: solid;
-    border-color: blue;
-    border-radius: 0rem;
-    text-align: center;
-}*/
-
-.formulario > cate{
-    text-align: left;
-   
-}
 
 .bcg-celeste{
     background-color: lightblue;
@@ -236,4 +123,113 @@ h4{
 
 .logo{
     width: 6rem;
+}
+
+.foto{
+    text-align: end;
+    
+}
+
+@media only screen and (max-width:1500px) {
+    .foto{
+        padding-top: 20rem;
+        padding-left: 44rem;
+        padding-right: 8rem ;
+    }
+    .foto > h1{
+        font-size: 2.1rem;
+    }
+    .foto > p{
+        font-size: 1.1rem;
+    }
+    .foto > a{
+        font-size: 1.1rem;
+    }
+    .oradores{
+        padding: 0rem 9rem 2rem 9rem;
+    }
+    .footer{
+        display: inline-flex;
+        align-items: center;
+        text-align: center;
+        font-size:0.7em
+    }
+    
+    .footer > a{
+        
+        padding: 1.8rem;
+        line-height: 1.5;
+        text-align: center;
+        
+    }
+    
+} 
+
+@media only screen and (max-width:1000px) {
+    .foto{
+        padding-top: 8rem;
+        padding-left: 23rem;
+        padding-right: 4rem ;
+        
+    }
+    .foto > h1{
+        font-size: 1.5rem;
+    }
+    .foto > p{
+        font-size:0.9rem
+    }
+    .foto > a{
+        font-size: 0.9rem;
+    }
+    .oradores{
+        padding: 0rem 0rem 2rem 0rem;
+    }
+    .footer{
+        display: inline-flex;
+        align-items: center;
+        text-align: center;
+        font-size:0.6em
+    }
+    
+    .footer > a{
+        
+        padding: 0.8rem;
+        line-height: 1.5;
+        text-align: center;
+        
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .foto{
+        padding-top: 2rem;
+        padding-left: 2rem;
+        padding-right: 2rem ;
+    }
+    .foto > h1{
+        font-size: 1rem;
+    }
+    .foto > p{
+        font-size:0.7rem
+    }
+    .foto > a{
+        font-size: 0.7rem;
+    }
+    .oradores{
+        padding: 0rem ;
+    }
+    .footer{
+        display: inline-flex;
+        align-items: center;
+        text-align: center;
+        font-size:0.5em
+    }
+    
+    .footer > a{
+        
+        padding: 0.4rem;
+        line-height: 1.5;
+        text-align: center;
+        
+    }
 }
